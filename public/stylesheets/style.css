@@ -1,0 +1,72 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar-default {
+background-color: #0091EA;
+border-color: #00B0FF;
+}
+
+.navbar-default .navbar-brand {
+color: rgba(255,255,255,0.87);
+}
+
+.navbar-default .navbar-nav>li>a {
+color: rgba(255,255,255,0.87);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: rgba(255,255,255,0.87);
+background-color: #00B0FF;
+font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+color: rgba(255,255,255,0.87);
+background-color: #00B0FF;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: rgba(255,255,255,0.87);
+font-weight: bold;
+background-color: #00B0FF;
+}
+
+.jumbotron {
+background-color: #80D8FF;
+}
+
+.dark {
+color: rgba(0,0,0,0.87);
+}
+
+.white{
+  color: rgba(255,255,255,0.87);  
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}

@@ -1,0 +1,29 @@
+<% include header %>
+<div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>File Upload</h1>
+        <p>Upload your PDF here</p>
+        <p>
+          <form id="file-upload" action="/upload" method="post" enctype='multipart/form-data'> 
+            <div class="input-group">
+                <span class="input-group-btn">
+                    <span class="btn btn-primary btn-file">
+                        Browse… <input type="file" name="uploaded_file" />
+                    </span>
+                </span>
+                <input type="text" class="form-control" readonly="">
+            </div>
+            <span class="help-block">
+                Try selecting one or more files and watch the feedback
+            </span>
+
+             <br/><br/>
+            <button type="submit" class="btn btn-lg btn-primary" role="button">Upload</button>
+          </form>
+        </p>
+      </div>
+
+    </div> <!-- /container -->
+<% include footer %>
